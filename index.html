@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+	<title>Tokners</title>
+	<link rel="shortcun icon" href="favicon.png">
+
+	<style type="text/css">
+		body{
+			margin: 0;
+			/*font-family: 'Didact Gothic', sans-serif;*/
+			font-family: 'Poppins', sans-serif;
+			background-color:#0F1320;
+			background-image: url(bg.png);
+			background-repeat: no-repeat;
+		}
+
+        .toolbar{  /*Menu principal*/
+        	display: flex;
+        	align-items: center;
+        	justify-content: space-between;
+        	height: 80px;
+        	width: auto;
+        	/*position: fixed;*/
+        }
+        .toolbar ul{
+        	display: flex;
+        	justify-content: space-between;
+        }
+        .toolbar ul li a{
+        	text-decoration: none;
+        	color: white;
+        }
+        .toolbar ul li{
+        	list-style: none;
+        	width: 90px;
+        }
+
+        .toolbar1{
+        	display: flex;
+        	padding-left: 45px;
+        	align-items: baseline;
+        }
+
+        .toolbar2{
+        	display: flex;
+        	justify-content: flex-end;
+        	gap: 25px;
+        	align-items: center;
+        	padding-right: 45px;
+
+        }
+        .toolbar2 a{
+        	text-decoration: none;
+        	color: white;
+        }
+
+        .button{
+        	border: 2px solid #22A75D;
+        	width: 146px;
+        	height: 45px;
+        	display: flex;
+        	justify-content: center;
+        	align-items: center;
+        	border-radius: 30px;
+        }
+        .button1{
+        	background-color:#22A75D;
+        	width: 146px;
+        	height: 45px;
+        	display: flex;
+        	justify-content: center;
+        	align-items: center;
+        	border-radius: 30px;
+        	background: #22A75D;
+			box-shadow: 0px 15px 25px rgba(34, 167, 93, 0.25);
+			border-radius: 52px;
+        }
+
+        .hijo1{
+        	display: flex;
+        	flex-wrap: wrap;
+        	height: auto;
+        	width: 100%;
+        }
+        .hijo1s1{
+        	width: 400px;
+        	height: auto;
+        	padding-left: 40px;
+        	padding-top: 90px;
+        }
+        .hijo1s1 h1{
+        	color: white;
+        }
+        .hijo1s1 .p1{
+        	background: linear-gradient(0deg, #000eff 10%, #25cbff 81.99%), #ffd100;
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			background-clip: text;
+			text-fill-color: transparent;
+        }
+
+        .hijo1s2{
+         	width: 400px;
+        	height: auto;       	
+        }
+        .hijo1s2 img{
+        	width: 217%;
+        }
+        .button1 a{
+        	text-decoration: none;
+        	color: white;
+        }
+
+        .hijo2{
+        	display: flex;
+        	justify-content: space-between;
+        	display: flex;
+        	flex-wrap: wrap;
+        	height: auto;
+        	width: 100%;
+
+        }
+        .conthijo2s1{
+        	background-color:#171B29;
+        	width: 600px;
+        	height: 350px;
+        	border-radius: 20px;
+        	position: relative;
+        	margin: -63px 0 0 70px;
+        }
+        .conthijo2s1 h2{
+        	color: white;
+        	padding: 88px 0 0 30px;
+        }
+
+        .conthijo2s1 h2 strong{
+        	text-decoration: underline;
+        	color: #22A75D;
+        }
+        .conthijo2si a{
+        	color: #22A75D;
+        }
+
+        .conthijo2s2{
+        	background-color:#171B29;
+        	width: 600px;
+        	height: 400px;
+        	border-radius: 20px;
+        	position: relative;
+        	
+        }
+        .conthijo2s2 h2{
+       	color: white;
+       	padding: 88px 0 0 30px;
+        }
+        .conthijo2s2 strong{
+       	text-decoration: underline;
+       	color: #2278D4;
+        }
+        .contcorona{
+        	display: flex;
+        	justify-content: center;
+        	align-items: center;
+        	background-color: #22A75D;
+        	width: 50px;
+        	height: 50px;
+        	border-radius: 90px;
+        	margin: 40px 0 0 31px;
+        	position: absolute;
+        	box-shadow: 0px 15px 25px rgba(34, 167, 93, 0.25);
+        }
+        .contestrella{
+        	display: flex;
+        	justify-content: center;
+        	align-items: center;
+        	background-color: #2278D4;
+        	width: 50px;
+        	height: 50px;
+        	border-radius: 90px;
+        	margin: 40px 0 0 31px;
+        	position: absolute;       	
+			box-shadow: 0px 15px 25px rgba(34, 120, 212, 0.25);
+        }        
+
+		#hijo3{ /*comienzo de mi parte*/
+			display: flex;
+			justify-content: flex-start;
+			flex-wrap: wrap;
+			height: auto;
+			width: 100%;
+			padding-top: 50px;
+		}
+		.conthijo3{
+			width: 650px;
+			/*height: 541px;*/
+			height: auto;
+			/*border: 1px solid black;*/
+		}
+		.figura1{
+/*			width: 650px;
+			height: 491px;*/
+			width: 100%;
+			height: 100%;
+		}
+		.figura2{
+			background-color: white;
+			border-top-left-radius: 250px;
+		}
+		.conthijo3 h1{
+			/*padding: 80px 0 0 50px;*/
+			font-size: 35px;
+		}
+		.conthijo3 h2{
+			/*padding-left:50px;*/
+			font-size: 15px;
+			color:gray;
+		}
+
+
+		.menucel{
+			display: none;
+			cursor: pointer;
+		}
+
+@media (max-width: 600px){ /*Estilos responsive*/
+	.menucel{
+		display:block;
+		padding-left: 40px;
+		width: 150%;
+	}
+	.toolbar1 ul{
+		display: none;
+	}
+	.toolbar2 a{
+		display: none;
+	} 
+	.toolbar2 .button{
+		display: none;
+	}
+	.hijo1s2 img{
+		/*display: none;*/
+		width: 100%;
+	}
+	.toolbar1 img{
+		width: 90%;
+	}
+	.hijo1s1{
+		padding: 0px 16px;
+	}
+	.conthijo2s1{
+		width: 323px;
+		margin: 0 0 0 18px;
+		height: auto;
+		padding-bottom: 28px;
+	}
+	.conthijo2s2{
+		width: 323px;
+		margin: 38px 0 0 18px;
+		height: auto;	
+		padding-bottom: 28px;	
+	}
+	.toolbar1{
+		padding-left: 22px;
+	}
+	.figura2{
+		border-top-right-radius: 250px;
+		border-top-left-radius: 0px;
+	}
+}
+
+	</style>
+</head>
+
+<body>
+
+	<div class="toolbar"> <!-- menu principal -->
+		<div class="toolbar1">
+			<div class="contlogo">
+				<img src="logo.png">
+			</div>
+			<div>
+				<ul>
+					<li><a href="#">Our team</a></li>
+					<li><a href="#">Tokens</a></li>
+					<li style="width:148px"><a href="#" >Connect wallet</a></li>
+					<li><a href="#">Lightpaper</a></li>
+				</ul>
+
+			</div>
+
+		</div>
+		<div class="toolbar2">
+			<div class=""><a href="">Sign in</a></div>
+			<div class="button"><a href="#">Sign up</a></div>
+			<div class="menucel"><img src="menucel.png" style="width: 140%;"></div>
+		</div>
+	</div> <!-- fin menu principal -->
+
+	<div class="hijo1">
+		<div class="hijo1s1">
+			<p class="p1">At Tokners we are</p>
+			<h1>Reimagining social media through the power of the blockchain.</h1>
+			<p style="color:gray">We are creating social media 3.0 with influencers, celebrities and creators being able to launch their own digital currency by simply creating a profile with media content posted as Non fungible Tokens that can be owned and traded on the Tknrs network</p>
+			<div class="button1">
+				<a href="#">Learn More</a>
+			</div>
+		</div>
+		<div class="hijo1s2">
+			<img src="Group 65.png">
+		</div>
+	</div>
+
+	<div class="hijo2">
+		<div class="conthijo2s1">
+			<div class="contcorona"><img src="corona.png" style="width: 37%;"></div>
+			<h2>For <strong>Creators</strong></h2>
+			<p style="color:gray;padding: 0 28px;">Creators can gain independence through a decentralised digital currency system that is
+			dependent on growing and engaging with the community and also their star power. They own
+			10-15% of the total value of the tokens minted.</p>
+			<div style="display:flex;padding-left: 30px;align-items: center;"><a href="#" style="color: #22A75D;">Learn more..</a>
+				<img src="flechav.png" style="width: 15px;height: 15px;">
+			</div>
+		</div>
+		<div class="conthijo2s2">
+			<div class="contestrella"><img src="estrella.png" style="width: 37%;"></div>
+			<h2>For <strong>Holders</strong></h2>
+			<p style="color:gray;padding: 0 28px;">Holding social tokens allows the individual to gain access to benefits including unreleased content, private communities, direct access to celebrity, early- access to tickets and more as well as the ability to trade with other communities in order to gain access to more creator content with early token buyers being the biggest winners as the value of the token increases with more buyers. </p>
+			<div style="display:flex;padding-left: 30px;align-items: center;"><a href="#" style="color: #2278D4;">Learn more..</a>
+				<img src="flechaa.png" style="width: 15px;height: 15px;">
+			</div>
+		</div>
+	</div>
+
+	<div id="hijo3">
+		<div class="conthijo3">
+			<img src="figura1.png" class="figura1">
+		</div>
+		<div class="conthijo3 figura2">
+			<div style="width: 70%;padding: 190px 0 0 80px;">
+				<h1>What makes us diferent?</h1>
+				<h2>We would only launch tokens with the express permission of the creators. </h2>
+				<p style="font-size: 10px; color: gray;">There are several thousand celebrities and creators on twitter, tiktok, Instagram and YouTube with followings in the millions who we would be actively engaging before we go viral. 
+
+				We would get them on our
+				platform and they would see the opportunity to create a fan driven digital economy where their digital content can be traded as NFTs and their most loyal fans can have the monetary value of their creator's currency increase significantly as they promote their digital currency across their channels while our native token holders benefit from the Weentar popularity.</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
