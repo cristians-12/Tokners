@@ -91,7 +91,7 @@
         	width: 100%;
         }
         .hijo1s1{
-        	width: 400px;
+        	width: 600px;
         	height: auto;
         	padding-left: 40px;
         	padding-top: 90px;
@@ -108,7 +108,7 @@
         }
 
         .hijo1s2{
-         	width: 823px;
+         	width: auto;
         	height: auto;       	
         }
         .hijo1s2 img{
@@ -126,14 +126,15 @@
         	gap:20px;
         	height: auto;
         	width: 100%;
+        	padding-top: 70px;
 
         }
         .conthijo2s1{
         	background-color:#171B29;
         	width: 600px;
-        	height: 350px;
+        	height: 70%;
         	border-radius: 20px;
-        	position: relative;
+        	padding: 30px 10px;
         	margin: -63px 0 0 40px;
         }
         .conthijo2s1 h2{
@@ -152,9 +153,9 @@
         .conthijo2s2{
         	background-color:#171B29;
         	width: 600px;
-        	height: 400px;
+        	height: auto;
         	border-radius: 20px;
-        	position: relative;
+        	padding: 30px 10px;
         	margin: 30px 20px 0 0;
         	
         }
@@ -199,7 +200,7 @@
 			padding-top: 50px;
 		}
 		.conthijo3{
-			width: 650px;
+			width: 100%;
 			/*height: 541px;*/
 			height: auto;
 			/*border: 1px solid black;*/
@@ -232,11 +233,97 @@
 
 		.hijo4{
 			width: 100%;
-			display: flex;			
+			display: flex;	
+			/*padding-top: 60px;	*/	
 		}
 		.q1{
+			display: flex;
+			align-items: center;
+			background-image: url(figq1.png) ;
 			padding: 70px 0 0 50px;
+			width: 91px;
+			height: 60px;
+			background-repeat: no-repeat;
+			/*margin: 145px 0 0 85px;*/
 		}
+		.contq1{
+			color: white;
+			padding: 135px 0 0 0px;
+		}
+		.contq1 h5{
+			color: #22A75D;
+			/*margin: 0 0 0 29px;*/
+		}
+		.text1q1{
+			display: flex;
+			margin: 0 0 0 29px;
+			align-items: baseline;
+			height: 40px;
+		}
+		.text1q1 p{
+			margin-left: 15px;
+			color: gray;
+		}
+		.contq2{
+			padding: 135px 0 0 30px;
+			color: white;
+		}
+		.q2{
+			display: flex;
+		}
+		.textq2{
+			display: flex;
+			align-items: baseline;
+
+		}
+		.textq2 h5{
+			color: #2278D4;
+		}
+		.textq2 p{
+			color: gray;
+			margin: 17px 15px;
+		}
+
+		.contq3{
+			padding: 135px 0 0 30px;
+			color: white;
+		}
+		.q3{
+			display: flex;
+		}
+		.textq3{
+			display: flex;
+			align-items: baseline;
+
+		}
+		.textq3 h5{
+			color: #FFD100;
+		}
+		.textq3 p{
+			color: gray;
+			margin: 17px 15px;
+		}
+
+		.contq4{
+			padding: 135px 0 0 30px;
+			color: white;
+		}
+		.q4{
+			display: flex;
+		}
+		.textq4{
+			display: flex;
+			align-items: baseline;
+
+		}
+		.textq4 h5{
+			color: #E20613;
+		}
+		.textq4 p{
+			color: gray;
+			margin: 17px 15px;
+		}
+
 
 
 @media (max-width: 600px){ /*-------------------------------------Estilos responsive--------------------------------------*/
@@ -291,6 +378,24 @@
 	.figura2{
 		border-top-right-radius: 250px;
 		border-top-left-radius: 0px;
+	}
+	.hijo4{
+		flex-wrap: wrap;
+	}
+	.contq1{
+		padding: 60px 0px 0 40px;
+	}
+	.contq2{
+		padding: 60px 0px 0 40px;
+	}
+	.contq3{
+		padding: 60px 0px 0 40px;
+	}
+	.contq4{
+		padding: 60px 0px 0 40px;
+	}
+	.fighijo4{
+		display: none;
 	}
 }
 
@@ -389,8 +494,101 @@
 	</div>
 
 	<div class="hijo4">
-		<div class="q1">
-			<img src="figq1.png">
+
+
+		<div class="contq1">
+			<div class="q1">
+				<img src="Q1.png" style="margin-bottom: 90px;">
+					<div style="padding: 0 0 60px 34px;">
+						<img src="pq1.png">
+						<h3 style="margin:0">2021</h3>
+					</div>
+			</div>
+			<div class="text1q1">
+				<h5>01</h5>
+				<p>Team Set-Up</p>
+			</div>
+			<div class="text1q1">
+				<h5>02</h5>
+				<p>Launch of informational website</p>
+			</div>
+		</div>
+
+
+		<div class="contq2">
+			<div class="q2">
+				<img src="figq2.png">
+				<div style="margin: 42px 0 0px -13px;">
+					<img src="pq2.png">
+					<h3 style="margin:0">2021</h3>
+				</div>
+			</div>
+			<div class="textq2">
+				<div>
+					<h5>01</h5>
+					<h5 style="margin-top: 47px;">02</h5>
+					<h5 style="margin-top: 47px;">03</h5>
+					<h5 style="margin-top: 20px;">04</h5>
+					<h5 style="margin-top: 47px;">05</h5>
+				</div>
+				<div>
+					<p>Presale and exchange listings</p>
+					<p>Blockchain development and launch</p>
+					<p>Launch of our MVP</p>
+					<p>Influencer agency partnerships</p>
+					<p>Marketing and promotion</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="contq3">
+			<div class="q3">
+				<img src="figq3.png">
+				<div style="margin: 42px 0 0px -13px;">
+					<img src="pq3.png">
+					<h3 style="margin:0">2021</h3>
+				</div>
+			</div>
+				<div class="textq3">
+					<div>
+						<h5>01</h5>
+						<h5 style="margin-top: 72px;">02</h5>
+						<h5 style="margin-top: 72px;">03</h5>
+					</div>
+					<div>
+						<p>Celebrity, Creator and Influencer <br>partnerships</p>
+						<p >Expansion of creator communities <br>on our platform</p>
+						<p>More Marketing and promotion</p>
+					</div>
+				</div>
+		</div>
+
+		<div class="contq4">
+			<div class="q4">
+				<img src="figq4.png">
+				<div style="margin: 42px 0 0px -13px;">
+					<img src="pq4.png">
+					<h3 style="margin:0">2021</h3>
+				</div>
+			</div>
+				<div class="textq4">
+					<div>
+						<h5>01</h5>
+						<h5>02</h5>
+						<h5 style="margin-top: 47px;">03</h5>
+						<h5 style="margin-top:47px">04</h5>
+					</div>
+					<div>
+						<p>Mainstream partnerships</p>
+						<p>500 active creator communities</p>
+						<p>2Million active community members</p>
+						<p>More Marketing and promotion</p>
+					</div>
+				</div>
+		
+		</div>
+		<div>
+			<img src="fighijo4.png" class="fighijo4" style="height: 163px;">
 		</div>
 	</div>
 </body>
