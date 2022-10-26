@@ -417,6 +417,7 @@ body{
 			width: 100%;
 			background-image: url(back2.png);
 			background-repeat: no-repeat;
+			background-size: 100%;
 		}
 		.conthijo7{
 			display: flex;

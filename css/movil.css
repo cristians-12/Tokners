@@ -167,6 +167,8 @@
 	}
 	.conticonos{
 		margin-top: -236px;
+		width: auto;
+		margin-left: 10px;
 	}
 	.hijo7f{
 		margin: -427px 0 0 75px;
@@ -180,7 +182,7 @@
 	}
 	.contcirc2{
 		transform: rotate(90deg);
-		margin: 523px 0 0 0;
+		margin: 500px 0 0 0;
 	}
 	.contcirc1{
 		transform: rotate(90deg);
@@ -188,5 +190,11 @@
 	}
 	.centro{
 		margin-top: 30px;
+	}
+	.contact{
+		height: 50%;
+	}
+	.hijo7f h5{
+		margin: none;
 	}
 }
