@@ -153,4 +153,40 @@
 	.menu2{
 		display: none;
 	}
+	.contact ul{
+		padding-left: 0;
+	}
+	.contact ul li{
+		width: 59px;
+	}
+	.contlogo1{
+		margin: 90px 0px 0 85px;
+	}
+	.hijo7{
+		background-image: none;
+	}
+	.conticonos{
+		margin-top: -236px;
+	}
+	.hijo7f{
+		margin: -427px 0 0 75px;
+	}
+	.cuadro7{
+		width: 57%;
+	}
+	.der{
+		margin-right: 0px;
+		margin-top: 30px;
+	}
+	.contcirc2{
+		transform: rotate(90deg);
+		margin: 523px 0 0 0;
+	}
+	.contcirc1{
+		transform: rotate(90deg);
+		margin: 224px 0 0 0;
+	}
+	.centro{
+		margin-top: 30px;
+	}
 }
