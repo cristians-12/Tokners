@@ -97,7 +97,7 @@ body{
         .hijo1s2{
          	width: auto;
         	height: auto; 
-        	margin-top: -72px;      	
+        	margin-top: -2px;      	
         }
         .hijo1s2 img{
         	width: 100%;
@@ -216,7 +216,7 @@ body{
 
 		.menucel{
 			display: none;
-			cursor: pointer;
+			/*cursor: pointer;*/
 		}
 		.menucel1{
 			display: none;
@@ -325,7 +325,7 @@ body{
 		.hijo5{
 			width: 100%;
 			display: flex;
-			padding: 40px 0px 100px 0px;
+			padding: 0px 0px 100px 0px;
 			height: auto;
 			gap: 20px;
 
@@ -365,9 +365,13 @@ body{
 			background-repeat: no-repeat;
 			background-size: 100%;
 			width: 100%;
-			height: auto;
+			height: 100%;
 			color: white;
 			text-align: center;
+			padding-bottom: 50px;
+		}
+		.hijo6 h1{
+			margin-top: -178px;
 		}
 		.contborde{
 			padding-top: 195px;
@@ -391,16 +395,71 @@ body{
 		.cuadro h3 , .cuadro h5 {
 			margin: 0;
 		}
-		.uno{
+		.uno ,.tres{
 			/*margin-left: 60px;*/
+			height: 70%;
 		}
 		.cuadro h4 , .cuadro p{
 			color: #191B21;
 		}
 		.dos{
 			margin-top: 73px;
+			height: 80%;
 		}
 		.contborde1{
 			margin: -349px 0 57px -1090px;
 			position: relative;
+			width: 100%;
+		}
+
+		.hijo7{
+			color: white;
+			width: 100%;
+			background-image: url(back2.png);
+			background-repeat: no-repeat;
+		}
+		.conthijo7{
+			display: flex;
+			justify-content: space-evenly;
+		}
+		.cuadro7{
+			background-color: #171B29;
+			padding: 50px 50px;
+			border-radius: 25px;
+			width: 20%;
+			height: 70%;
+		}
+		.centro{
+			margin-top: 50px;
+		}
+		.cuadro7 h6{
+			color: gray;
+		}
+		.menu_2 a{
+			
+			color: white;
+		}
+		.menu_2 li{
+			width: 110px;
+			list-style: none;
+		}
+		.menu_2{
+			display: flex;
+		}
+		.menu2{
+			margin: 147px 0px 0 336px;
+		}
+		.izq{
+			/*margin-left: 80px;*/
+		}
+		.contcirc1{
+			position: absolute;
+			margin: 110px 522px 0 0px;
+		}
+		.der{
+			margin-right: 100px;
+		}
+		.contcirc2{
+			position: absolute;
+			margin: 110px 0px 0 296px;
 		}
