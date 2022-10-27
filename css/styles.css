@@ -427,7 +427,7 @@ body{
 			background-color: #171B29;
 			padding: 50px 50px;
 			border-radius: 25px;
-			width: 20%;
+			width: 23%;
 			height: 70%;
 		}
 		.centro{
@@ -456,14 +456,14 @@ body{
 		}
 		.contcirc1{
 			position: absolute;
-			margin: 110px 522px 0 0px;
+			margin: 110px 418px 0 0px;
 		}
 		.der{
-			margin-right: 100px;
+			/*margin-right: 100px;*/
 		}
 		.contcirc2{
 			position: absolute;
-			margin: 110px 0px 0 296px;
+			margin: 110px 0px 0 419px;
 		}
 		.contact{
 			padding-bottom: 50px;
