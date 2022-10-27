@@ -96,7 +96,7 @@
 	}
 
 	.hijo5{
-		flex-wrap: wrap;	
+		flex-wrap: wrap-reverse;	
 		width: auto;	
 		height: auto;
 	}
