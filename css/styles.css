@@ -377,6 +377,7 @@ body{
 			padding-top: 195px;
 			margin-left: 1030px;
 			position: relative;
+			display:none;
 		}
 		.conthijo6{
 			width: 100%;
@@ -466,7 +467,6 @@ body{
 			margin: 110px 0px 0 419px;
 		}
 		.contact{
-			padding-bottom: 50px;
 			display: flex;
 			align-items: center;
 			gap: 10%;
