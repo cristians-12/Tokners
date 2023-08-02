@@ -469,7 +469,7 @@ body{
 			padding-bottom: 50px;
 			display: flex;
 			align-items: center;
-			gap: 200px;
+			gap: 10%;
 			width: 100%;
 			flex-wrap: wrap;
 		}
