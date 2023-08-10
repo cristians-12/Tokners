@@ -365,7 +365,7 @@ body{
 			background-repeat: no-repeat;
 			background-size: 100%;
 			width: 100%;
-			height: 1920px;
+			height: 810px;
 			color: white;
 			text-align: center;
 			padding-bottom: 50px;
@@ -420,6 +420,7 @@ body{
 			background-image: url(back2.png);
 			background-repeat: no-repeat;
 			background-size: 100%;
+			margin-top:0;
 		}
 		.conthijo7{
 			display: flex;
